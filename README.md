@@ -124,7 +124,9 @@ resynth includes the following header libraries:
 [kyaa]: https://github.com/notwa/kyaa
 [rnd]: https://github.com/mattiasgustavsson/libs
 
-compile like
+compile like:
 ```
-clang -std=gnu11 -lm -Ofast -DNDEBUG resynth.c -o resynth
+mkdir build && cd build
+cmake ..
+make
 ```
